@@ -631,7 +631,7 @@ class DjrillRecipientsRefusedTests(DjrillBackendMockAPITestCase):
     'invalid': 'invalid',
 })
 class DjrillMandrillGlobalFeatureTests(DjrillBackendMockAPITestCase):
-    """Test Djrill backend support for global ovveride Mandrill-specific features"""
+    """Test Djrill backend support for global override Mandrill-specific features"""
 
     def setUp(self):
         super(DjrillMandrillGlobalFeatureTests, self).setUp()
